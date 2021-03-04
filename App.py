@@ -1,25 +1,25 @@
 import tkinter as tk
-import glomCV
+import openCV_function as cvFunc
 import os
 import json
 
 class mainApplicationBody:
+    
+    def __init__(self):
+        pass
+
+class imagePreviewWindow(mainApplicationBody):
     pass
 
-class imagePreviewWindow:
+class parameterSelection(mainApplicationBody):
     pass
 
-class parameterSelection:
+class layerSelection(mainApplicationBody):
     pass
 
-class layerSelection:
-    pass
-
-class saveLoad:
-    pass
 
 def main():
-    pass
+    tk.mainloop()
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     main()
